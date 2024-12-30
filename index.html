@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What's the weather?</title>
+    <link rel='stylesheet' href="style.css"></rel>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Lalezar&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@1,800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Weather App</h1>
+      <div id="app-container">
+        <div id="search-container">
+          <div id="search-text">
+            <p id="search">Search</p>
+
+          </div>
+          <div id="input-button">
+            <input id='input' placeholder="City">
+            <button class="button">Go</button>
+          </div>
+          <div id="search-location">
+            <button class="current-location">Current Location</button>
+          </div>
+          </div>
+        <div id="weather-info-container">
+          <div id="left-weather">
+            <div id="div-degree">
+              <p id='degree'>10</p>
+            </div>
+            <div id="div-condition">
+              <p id="condition">Sunny</p>
+              <img id="icon">
+            </div>
+            <div id="div-date">
+              <p id="date">December 28, 2024</p>
+            </div>
+          </div>
+          <div id="right-weather">
+            <div class="extra-info">
+              <p class="weather-extras">Realfeel: </p>
+              <p class="weather-extras">UV Index: </p>
+              <p class="weather-extras">Wind: </p>
+              <p class="weather-extras">Change of Rain: </p>
+              <p class="weather-extras">Humidity: </p>
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
